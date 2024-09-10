@@ -1,0 +1,17 @@
+name: "liboqs"
+description:
+    "C library for prototyping and experimenting with quantum-resistant "
+    "cryptography."
+
+third_party {
+homepage: "https://github.com/open-quantum-safe/liboqs"
+  identifier {
+    type: "Git"
+    value: "https://github.com/open-quantum-safe/liboqs"
+    primary_source: true
+    version: "0.10.0"
+  }
+  version: "0.10.0"
+  last_upgrade_date { year: 2024 month: 8 day: 26 }
+  license_type: NOTICE
+}
